@@ -191,7 +191,7 @@ body {
 .nav__list {
   display: flex;
   justify-content: center;
-  margin-right: 15px;
+  margin-right: 500px;
 }
 .nav__item {
   font-size: 20px;
@@ -202,6 +202,18 @@ body {
   font-family: italic;
   color: #f8c704;
   transition: color 0.3s linear;
+}
+
+.active {
+  color: #f8c704;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: normal;
+  position: absolute;
+  background-image: url(./img/round-menu.png);
+  background-repeat: no-repeat;
 }
 
 .nav__item {
@@ -356,7 +368,7 @@ body {
   background-color: #1e1e1e;
 }
 .product__all-inner {
-  
+  display: flex;
 }
 .product__inner {
   display: flex;
@@ -462,7 +474,7 @@ body {
   margin-bottom: 54px;
   font-family: italic;
 }
-.product__tex-inner{
+.product__tex-inner {
   margin-left: 20px;
 }
 .product__data-inner {
@@ -525,44 +537,71 @@ body {
   font-family: italic;
 }
 
-.deliv__all{
+.deliv__all {
   display: flex;
 }
-.deliv__all-inner{
+.deliv__all-inner {
   display: flex;
   margin-top: 10px;
 }
-.deliv__descr-inner{
+.deliv__descr-inner {
   max-width: 883px;
-    width: 100%;
-    border-radius: 40px;
-    border: 1px solid #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
 }
 
-.deliv__info-list{
+.deliv__info-list {
   max-width: 783px;
   width: 100%;
   max-height: 776px;
   height: 100%;
 }
-.deliv__info-main{
+.deliv__info-main {
   font-family: italic;
-  color: #F8C104;
+  color: #f8c104;
   margin-bottom: 10px;
 }
 
-.deliv__info-text{
+.deliv__info-text {
   color: #fff;
   margin-bottom: 20px;
 }
 
-.deliv__info-www{
+.deliv__info-www {
   text-decoration: underline;
 }
 
-.deliv-info-Rule{
+.deliv-info-Rule {
   text-decoration: underline;
+}
+
+.revi__descr-inner {
+  max-width: 883px;
+  width: 100%;
+  max-height: 165px;
+  height: 100%;
+  border-radius: 40px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.revi__descr-text {
+  display: flex;
+  color: #fff;
+  max-width: 285px;
+  width: 100%;
+  max-height: 165px;
+  height: 100%;
+}
+.revi__descr-button {
+  width: 340px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: #f8c104;
 }
