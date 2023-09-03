@@ -356,8 +356,7 @@ body {
   background-color: #1e1e1e;
 }
 .product__all-inner {
-  display: flex;
-  margin-top: 10px;
+  
 }
 .product__inner {
   display: flex;
@@ -524,4 +523,46 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: italic;
+}
+
+.deliv__all{
+  display: flex;
+}
+.deliv__all-inner{
+  display: flex;
+  margin-top: 10px;
+}
+.deliv__descr-inner{
+  max-width: 883px;
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.deliv__info-list{
+  max-width: 783px;
+  width: 100%;
+  max-height: 776px;
+  height: 100%;
+}
+.deliv__info-main{
+  font-family: italic;
+  color: #F8C104;
+  margin-bottom: 10px;
+}
+
+.deliv__info-text{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.deliv__info-www{
+  text-decoration: underline;
+}
+
+.deliv-info-Rule{
+  text-decoration: underline;
 }
